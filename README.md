@@ -28,7 +28,7 @@ You need to install NodeJS first.
 
 #### Run web client Step
 1. Run internal node server  
-   > $ cd source/client/web/src/images/
+   > $ cd source/client/web/src/images/    
    > $ node server.js
 2. Run react web server  
    > $ yarn start
