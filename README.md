@@ -1,5 +1,10 @@
 # 3team Studio Project
 
+## Source Sync
+When sync source in Windows, apply git config below
+> $ git config --system core.protectNTFS false     
+
+
 ## Client
 ### ALPR
 #### ALPR Build Guide
@@ -23,8 +28,8 @@ You need to install NodeJS first.
 
 #### Run web client Step
 1. Run internal node server  
-   > $ cd source/client/web
-   > $ node src/images/server.js
+   > $ cd source/client/web/src/images/
+   > $ node server.js
 2. Run react web server  
    > $ yarn start
 
